@@ -1,0 +1,136 @@
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    background-image: url('../app\ 1-Recovered-Recovered.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* margin-left: 6%; */
+    /* margin-top: 5%; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+
+
+.share{
+    padding: 7.6px 0;
+    outline: none;
+
+     width: 80%; 
+    height:50px;
+    border: 2px solid #4facfe;
+    color: dodgerBlue;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    margin-left: 3px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    font-family: 'Myriad Pro', monospace;
+    font-size: 1.4rem;
+    opacity:30; 
+
+}
+button[type="submit"]:hover{
+    color: rgb(0, 68, 255);
+}
+
+input{
+    background-color: #45b3bb;
+}
+input[type="text"]{
+    padding: 7.6px 0;
+    outline: none;
+    text-align: center;
+    margin-left: 3px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+
+    flex-direction: columns;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    opacity:30;
+    color: #fff;
+}
+
+
+form{
+    padding-top: 300px;
+}
+/* icon */
+.user i {
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    padding: 9px 8px;
+    transition: 0.3s;
+    margin-top: 320px;
+    margin-left: 70px;
+    color: white;
+
+  }
+
+  .users i {
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    padding: 9px 8px;
+    transition: 0.3s;
+    margin-top: 390px;
+    margin-left: 70px;
+    color: white;
+  }
+
+
+  
+  .user input[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+  
+  .users input[type="text"]:focus + i {
+    color: dodgerBlue;
+  }
+
+   
+  /* icon */
+
+
+
+
+  
+@media (max-width: 410px){
+    .container{
+        flex-direction: column;
+        display: block;
+    }
+
+    form{
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 370px){
+    .container{
+        height: 230px;
+    }
+
+}
